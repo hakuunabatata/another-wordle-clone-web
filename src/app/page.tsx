@@ -1,13 +1,9 @@
-import { Letter } from './components/Letter'
+import { Word } from './components/Word'
 
 export default function Home() {
   return (
     <>
-      <Letter />
-      <Letter />
-      <Letter mode='correct' />
-      <Letter mode='semi' />
-      <Letter />
+      <Word />
     </>
   )
 }
