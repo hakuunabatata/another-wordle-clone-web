@@ -1,0 +1,24 @@
+.letter {
+  width: calc(3rem + 12px);
+  height: calc(3rem + 12px);
+  border-radius: 8px;
+  border: 0;
+  box-sizing: initial;
+  font-size: 2rem;
+  background: var(--gray-800);
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
+}
+
+.correct {
+  background: var(--green-500);
+}
+
+.semi {
+  background: var(--red-500);
+}
+
+.default {
+  background: var(--gray-800);
+}
